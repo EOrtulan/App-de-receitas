@@ -1,0 +1,97 @@
+.startRecipeBtn {
+  background-color: var(--first-color);
+  bottom: 0;
+  color: white;
+  left: 0;
+  padding: 0.5%;
+  position: fixed;
+  text-align: center;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+}
+
+.scroll {
+  height: 280px;
+  margin-bottom: 50px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 400px;
+}
+
+.scroll div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.scroll img { border: 0;}
+
+.Video {
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.IntructionParagraph {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  padding: 2%;
+  /* background-color: #A7A7A9;
+  color: white; */
+}
+
+.Instructions {
+  margin-left: 2%;
+  width: 96%;
+  background-color: var(--first-color);
+  color: white;
+}
+
+.Ingredients {
+  margin-left: 2%;
+  margin-top: 14%;
+  background-color: var(--first-color);
+  width: 96%;
+  color: white;
+}
+
+.IngredientsItens {
+  margin-left: 5%;
+  list-style: disc;
+}
+
+.title {
+  margin-left: 2%;
+}
+
+.buttons {
+  margin-left: 79%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -14%;
+}
+
+.subTitle {
+  margin-left: 2%;
+  color: #A7A7A9
+}
+
+.TitleRecomended {
+  margin-left: 2%;
+  color: white;
+}
+
+.ItemRecomended {
+  background-color: var(--first-color);
+  border-radius: 6%;
+  margin: 2%;
+  padding: 2%;
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77); /* REF SOMBRA: https://www.devmedia.com.br/css3-box-shadow-generator/28786 */
+}
+
+.ImgRecomended {
+  border-radius: 7%;
+}
